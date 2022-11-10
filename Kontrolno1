@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    char a[];
+    printf("What's your favorite animal?");
+    scanf("%c", &a);
+    if(a == "cat" || a == "cats"){
+        printf("Great choice!");
+    }else{
+        printf("Ehhh... Maybe consider liking cats more.");
+    }
+    return 0;
+}
